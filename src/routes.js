@@ -7,7 +7,7 @@ import CreateEntry from './pages/create'
 const Routes = () => (
     <BrowserRouter>
         <Switch>
-            <Route exact path="/entries" component={Main}/>
+            <Route exact path="/" component={Main}/>
             <Route exact path="/createentry" component={CreateEntry}/>
         </Switch>
     </BrowserRouter>

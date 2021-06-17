@@ -7,8 +7,19 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Routes />
+      <div class="container-fluid">
+        <br />
+        <h1>Feed de Notícias</h1>
+        <hr />
+        <div class="row">
+          <div class="row col-lg-12">
+            <Routes />
+          </div>
+        </div>
+      </div>
+
     </div>
+
   );
 }
 

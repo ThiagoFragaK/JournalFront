@@ -57,7 +57,7 @@ class CreateEntry extends Component {
                                     </div>
                                     <div className="entryAdd form-group">
                                         <label class="col-form-label mt-4" htmlFor="entryDescr">Notícia</label>
-                                        <input
+                                        <textarea
                                             class="form-control"
                                             type="text"
                                             name="entryDescr"
